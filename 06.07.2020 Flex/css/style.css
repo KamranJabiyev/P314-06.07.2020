@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 1050px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: column-reverse; */
+}
+
+.parent div{
+    width: 25%;
+    height: 250px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.teal{
+    background-color: teal;
+}
+
+/* .card{
+    margin-top: 30px;
+    width: 320px;
+}
+
+.card:hover{
+    box-shadow: 2px 0px 8px #aaa;
+}
+
+.card .image{
+    width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+.card .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .image .date-time{
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    width: 50px;
+}
+
+.card .image .date-time .date{
+    background: turquoise;
+    padding: 5px 0;
+    opacity: 0.8;
+}
+
+.card .image .date-time .date p:first-child{
+    font-size: 20px;
+}
+
+.card .image .date-time .time{
+    background: steelblue;
+    opacity: 0.8;
+}
+
+.card .image .date-time .time p{
+    padding: 5px 0;
+}
+
+.card .title{
+    width: 100%;
+    height: 180px;
+    padding: 30px;
+    border: 1px solid #aaa;
+}
+
+.card .title p{
+    font-size: 23px;
+    color: #13317F;
+    font-weight: bold;
+}
+
+.card .statistic{
+    border: 1px solid #aaa;
+    background: #ddd;
+}
+
+.card .statistic ul{
+    font-size: 23px;
+    text-align: center;
+}
+
+.card .statistic ul li{
+    display: inline-block;
+    border-right: 1px solid #aaa;
+    width: 32%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.card .statistic ul li:last-child{
+    border-right: none;
+}
+
+.card .statistic ul li:first-child:hover{
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .parent{
+        width: 760px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .parent{
+        width: 500px;
+    }
+} */
